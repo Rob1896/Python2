@@ -23,19 +23,24 @@ class Maggie(Avatar):
         else:
             print("Water level cannot be higher than 700 or negative")
     
-    
+  
     
         
 pokemon3 = Maggie('Maggie', 980,'orange', 450, 50) # salud fuera de rango para probar el metodo
-# se imprime el "error" del setter healt
+
+
+# se imprime el "error" del setter healt de la clase padre 
 print(pokemon3.nombre)
 pokemon3.health = 34 #se pasa una nuevo valor dentro del rango 
-print(pokemon3.health) # se imprime correctamente
+print(pokemon3.health) # se imprime correctamente, entonces la herecian del setter esta funcionando 
 
 print(pokemon3.water_level) # se imprime correctamente
 pokemon3.water_level = 45
 print(pokemon3.waterlevel) # se imprime correctamente con el nuevo valor
+print(pokemon3.color)
 
+
+print(pokemon3.health)
 
 
 

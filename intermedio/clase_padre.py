@@ -39,4 +39,3 @@ class Avatar:
             self._Avatar_health = health
         
 
-
