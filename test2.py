@@ -15,5 +15,13 @@ print("Resultado: ", sumar(5, 3))
 
 
 
+def restar(a, b):
+    return a - b
+
+print("Resultado: ", restar(5, 3))
+
+
+
+
 
 
